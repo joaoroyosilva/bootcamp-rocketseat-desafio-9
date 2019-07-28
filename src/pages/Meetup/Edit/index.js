@@ -44,6 +44,7 @@ export default function MeetupEdit({ match }) {
         ),
       };
       setMeetup(data);
+      setDate(parseISO(data.date));
       setDescription(data.description);
     }
 

@@ -2,13 +2,12 @@ import styled from 'styled-components';
 import { darken } from 'polished';
 
 export const Container = styled.div`
-  max-width: 600px;
   margin: 50px auto;
+  width: 600px;
 
   form {
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
 
     input {
       background: rgba(0, 0, 0, 0.1);
